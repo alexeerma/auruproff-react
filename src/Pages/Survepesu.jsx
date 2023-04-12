@@ -1,9 +1,13 @@
 import React from 'react'
+import { NavBar } from '../components';
 
-function Survepesu() {
-  return (
-    <div>Survepesu</div>
-  )
+const Survepesu = () => {
+
+  <div>
+    <NavBar />
+    <h1>Survepesu</h1>
+  </div>
+  
 }
 
 export default Survepesu

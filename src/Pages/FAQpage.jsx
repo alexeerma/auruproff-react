@@ -1,9 +1,14 @@
 import React from 'react'
+import { NavBar } from '../components';
 
-function FAQpage() {
-  return (
-    <div>FAQpage</div>
-  )
+const FAQpage = () => {
+  
+  <div>
+    <NavBar /> 
+    <h1>Korduma kippuvad küsimused</h1>
+    
+  </div>
+  
 }
 
 export default FAQpage

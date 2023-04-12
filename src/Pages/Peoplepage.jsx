@@ -1,9 +1,14 @@
 import React from 'react'
+import { NavBar } from '../components';
 
-function Peoplepage() {
-  return (
-    <div>Peoplepage</div>
-  )
+const Peoplepage = () => {
+  
+  <div>
+    <NavBar />
+    <h1>Inimesed</h1>
+    
+  </div>
+  
 }
 
 export default Peoplepage

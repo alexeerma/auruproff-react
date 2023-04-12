@@ -1,9 +1,12 @@
 import React from 'react'
+import { NavBar } from '../components';
 
-function Work() {
-  return (
-    <div>Work</div>
-  )
+const Work = () => {
+    <div>
+      <NavBar />
+      <h1>WORK</h1>
+    </div>
+  
 }
 
 export default Work

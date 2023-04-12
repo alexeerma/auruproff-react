@@ -1,9 +1,14 @@
 import React from 'react'
+import { NavBar } from '../components';
 
-function Contactpage() {
-  return (
-    <div>Contactpage</div>
-  )
-}
+const Contactpage = () => (
+  
+  <div>
+    <NavBar /> 
+    <h1>Contact</h1>
+    
+  </div>
+  
+);
 
 export default Contactpage

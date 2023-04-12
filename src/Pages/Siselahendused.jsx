@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavBar } from '../components';
 
-const Siselahendused = () => {
+const Siselahendused = () => (
   
     <div>
       <NavBar />
@@ -9,6 +9,6 @@ const Siselahendused = () => {
     
     </div>
   
-}
+);
 
 export default Siselahendused

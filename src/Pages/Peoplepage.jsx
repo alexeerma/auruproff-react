@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavBar } from '../components';
 
-const Peoplepage = () => {
+const Peoplepage = () => (
   
   <div>
     <NavBar />
@@ -9,6 +9,6 @@ const Peoplepage = () => {
     
   </div>
   
-}
+);
 
 export default Peoplepage

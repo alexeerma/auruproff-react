@@ -11,27 +11,43 @@ const Header = () => {
           </a>
         </div>
         <div className="">
-          <Link className="" to="/">
-            Avaleht
-          </Link>
-          <Link className="" to="/Survepesu">
-            Survepesu
-          </Link>
-          <Link className="" to="/Siselahendused">
-            Siselahendused
-          </Link>
-          <Link className="" to="/Work">
-            Tööd
-          </Link>
-          <Link className="" to="/People">
-            Inimesed
-          </Link>
-          <Link className="" to="/FAQ">
-            KKK
-          </Link>
-          <Link className="" to="/Contact">
-            Kontakt
-          </Link>
+          <ul>
+            <li>
+             <Link className="" to="/">
+                Avaleht
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/Survepesu">
+                Survepesu
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/Siselahendused">
+                Siselahendused
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/tood">
+                Tööd
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/inimesed">
+                Inimesed
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/KKK">
+                KKK
+             </Link>
+            </li>
+            <li>
+             <Link className="" to="/kontakt">
+                Kontakt
+             </Link>
+            </li>
+          </ul>
         </div>
       </header>
     </>

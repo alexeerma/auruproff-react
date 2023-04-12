@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ErrorPage from "./Pages/error-page";
 
 import {Contactpage, FAQpage, Home, Peoplepage, Siselahendused, Survepesu, Work} from './Pages';
  
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/avaleht",

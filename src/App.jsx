@@ -11,10 +11,7 @@ import {Home, Survepesu, Siselahendused, Work, Peoplepage, FAQpage, Contactpage}
 function App() {
 
   return (
-        <>
           <NavBar />
-              
-        </>
       );
     }
 

@@ -26,7 +26,7 @@ module.exports = {
         xl: "1700px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/avaleht.png')",
+        "hero-pattern": "url('/src/assets/Slide1.png')",
       },
     },
     plugins: [],

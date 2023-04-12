@@ -29,7 +29,7 @@ const NavBar = () => {
         <div className={`${
         styles.paddingX
       } w-full flex flex-wrap justify-between items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-navtrans" : "bg-transparent"
     }`}>
         <div className="shrink-0 ml-[20px]">
           <Link to="/" onClick={() => {setActive(""); window.scrollTo(0, 0); }}>

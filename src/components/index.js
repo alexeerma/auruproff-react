@@ -16,6 +16,7 @@ import Contactinfo from './Contactinfo'
 import Contactform from './Contactform'
 import Contact from './Contact'
 import Contact2 from './Contact2'
+import Carousel from './Carousel';
 
 
 export {
@@ -37,5 +38,6 @@ export {
     Contact2,
     Contactform,
     Contactinfo,
+    Carousel,
 
 };

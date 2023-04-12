@@ -28,7 +28,7 @@ const NavBar = () => {
     <nav>
         <div className={`${
         styles.paddingX
-      } w-full flex justify-between items-center py-5 fixed top-0 z-20 ${
+      } w-full flex flex-wrap justify-between items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
     }`}>
         <div className="shrink-0 ml-[20px]">
@@ -38,37 +38,37 @@ const NavBar = () => {
         </div>
         <div className="mr-[20px]">
           <ul className="list-none hidden sm:flex flex-row gap-5 items-center py-5">
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/">
                 Avaleht
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/Survepesu">
                 Survepesu
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/Siselahendused">
                 Siselahendused
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/tood">
                 Tööd
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/inimesed">
                 Inimesed
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/KKK">
                 KKK
              </Link>
             </li>
-            <li className="px-5">
+            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
              <Link className="" to="/kontakt">
                 Kontakt
              </Link>
@@ -82,51 +82,51 @@ const NavBar = () => {
       </div>
       <div className={`${
               !toggle ? "hidden" : "flex"
-            } primary absolute top-20 w-full z-10 rounded-xl`}>
-            <ul className="list-none flex justify-end items-center flex-1 flex-col gap-4 pt-[30px]">
-            <li className="px-5" onClick={() => {
+            } primary absolute top-32 w-full z-10 bg-navtrans`}>
+            <ul className="list-none flex justify-end items-center flex-1 flex-col gap-4 pt-[30px] pb-5">
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
-             <Link className="" to="/">
+             <Link className="hover:text-red" to="/">
                 Avaleht
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/Survepesu">
                 Survepesu
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/Siselahendused">
                 Siselahendused
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/tood">
                 Tööd
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/inimesed">
                 Inimesed
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/KKK">
                 KKK
              </Link>
             </li>
-            <li className="px-5" onClick={() => {
+            <li className="px-5 text-primary font-poppins font-semibold hover:font-bold" onClick={() => {
                     setToggle(!toggle);
                   }}>
              <Link className="" to="/kontakt">

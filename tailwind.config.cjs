@@ -7,15 +7,14 @@ module.exports = {
           primary: "#183efa",
           secondary: "#ededed",
           conferehele: "#E7DCCD",
-          navtrans: "rgba(169, 130, 74, 0.7)",
+          navtrans: "rgba(24, 62, 250, 0.6)",
           dimWhite: "rgba(255, 255, 255, 0.7)",
           dimBlue: "rgba(9, 151, 124, 0.1)",
         },
         
         fontFamily: {
           poppins: ["Poppins", "sans-serif"],
-          displayfair: ["Playfair Display", "serif"],
-          nunito: ["Nunito Sans", "sans-serif"],
+          
         },
       },
       screens: {

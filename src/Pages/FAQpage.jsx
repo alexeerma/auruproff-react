@@ -3,7 +3,7 @@ import { NavBar } from '../components';
 
 const FAQpage = () => (
   
-  <div>
+  <div className='mt-36'>
     <NavBar /> 
     <h1>Korduma kippuvad küsimused</h1>
     

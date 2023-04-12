@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import {
   createBrowserRouter,
@@ -13,12 +12,8 @@ import {Contactpage, FAQpage, Home, Peoplepage, Siselahendused, Survepesu, Work}
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/avaleht",
     element: <Home />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/siselahendused",

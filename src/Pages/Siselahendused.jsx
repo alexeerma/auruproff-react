@@ -3,7 +3,7 @@ import { NavBar } from '../components';
 
 const Siselahendused = () => (
   
-    <div>
+    <div className='mt-36'>
       <NavBar />
       <h1>Siselahendused</h1>
     

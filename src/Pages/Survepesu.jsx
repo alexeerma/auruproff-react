@@ -3,7 +3,7 @@ import { NavBar } from '../components';
 
 const Survepesu = () => (
 
-  <div>
+  <div className='mt-36'>
     <NavBar />
     <h1>Survepesu</h1>
   </div>

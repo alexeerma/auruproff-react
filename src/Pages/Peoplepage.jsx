@@ -3,7 +3,7 @@ import { NavBar } from '../components';
 
 const Peoplepage = () => (
   
-  <div>
+  <div className='mt-36'>
     <NavBar />
     <h1>Inimesed</h1>
     

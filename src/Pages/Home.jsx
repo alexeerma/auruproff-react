@@ -2,7 +2,7 @@ import React from 'react'
 import { NavBar } from '../components';
 
 const Home = () => (
-    <div>
+    <div className='mt-36'>
       <NavBar />
       <h1>Home</h1>
       

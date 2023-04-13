@@ -29,5 +29,6 @@ module.exports = {
         "hero-pattern": "url('/src/assets/Slide1.png')",
       },
     },
-    plugins: [],
+    plugins: [ 
+      require('flowbite/plugin')],
   };

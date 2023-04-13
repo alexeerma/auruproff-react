@@ -1,10 +1,10 @@
 import React from 'react';
-import Carousel from './Carousel';
+
 
 
 const Hero = () => (
   
-  <div className='App'>
+  <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen'>
     <div className='card-container'>
       <div>
         <h1>Sinu professionaalne eripuhastustööde partner</h1>
@@ -16,7 +16,6 @@ const Hero = () => (
           </ul>
       </div>
     </div>
-    <Carousel />
   </div>
 );
     

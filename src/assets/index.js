@@ -1,4 +1,5 @@
-import auruproff from './auruproff-logo.svg';
+import aur_blue from './auruproff-logo.svg';
+import aur_white from './aur-white.svg';
 import menu from './menu.svg';
 import close from './close.svg'
 import auruproff_fav from './auruproff-fav.png';
@@ -12,7 +13,8 @@ import slide5 from './Slide5.jpg';
 
 
 export {
-    auruproff,
+    aur_blue,
+    aur_white,
     close,
     menu,
     auruproff_cov,

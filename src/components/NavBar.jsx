@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { auruproff, close, menu } from '../assets';
+import { aur_blue, aur_white, close, menu } from '../assets';
 import { styles } from '../styles';
 
 const NavBar = () => {
@@ -33,7 +33,7 @@ const NavBar = () => {
     }`}>
         <div className="shrink-0 ml-[20px]">
           <Link to="/" onClick={() => {setActive(""); window.scrollTo(0, 0); }}>
-          <img className="w-[200px] object-contain md:w-[250px] object-contain" src={auruproff} alt="logo" />
+          <img className="w-[200px] object-contain md:w-[250px] object-contain" src={aur_blue} alt="logo" />
           </Link>
         </div>
         <div className="mr-[20px]">

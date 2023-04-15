@@ -21,6 +21,8 @@ import LogoS9 from './logo-slider/LogoS9.png';
 import LogoS10 from './logo-slider/LogoS10.jpg';
 import LogoS11 from './logo-slider/LogoS11.png';
 import LogoS12 from './logo-slider/LogoS12.png';
+import siselahendused_pic from './Siselahendused-aur.jpg';
+import valilahendused_pic from './valilahendused.jpg';
 
 
 
@@ -48,4 +50,6 @@ export {
     LogoS10, 
     LogoS11,
     LogoS12,
+    siselahendused_pic,
+    valilahendused_pic,
 }

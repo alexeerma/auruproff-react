@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Pslider() {
-  return (
-    <div>Pslider</div>
-  )
-}
+const Pslider = () => (
+  
+  <div>Pslider</div>
+  
+);
 
 export default Pslider

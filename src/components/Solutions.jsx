@@ -1,9 +1,16 @@
 import React from 'react'
 
-function Solutions() {
-  return (
-    <div>Solutions</div>
-  )
-}
+const Solutions = () => (
+  
+  <div>
+    <div className='flex justify-around'>
+      <div className=''></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+);
 
 export default Solutions

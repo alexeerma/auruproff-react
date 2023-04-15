@@ -7,6 +7,7 @@ import Slider from "react-slick";
 const LogoSlider = ({ logos }) => {
   const settings = {
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
@@ -42,7 +43,7 @@ const LogoSlider = ({ logos }) => {
   return (
     <Slider {...settings}>
       {logos.map((logo, index) => (
-        <div key={index} className="mx-4">
+        <div key={index} className="">
           <img src={logo} alt="logo" />
         </div>
       ))}

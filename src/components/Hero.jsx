@@ -4,8 +4,7 @@ import CTAButton1 from './CTAButton1';
 
 
 const Hero = () => (
-  
-  <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen'>
+  <section className='bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen'>
     <div className=''>
       <div className='pl-[100px] pt-[300px]'>
         <h1 className='font-poppins text-6xl text-white w-[700px]' >Sinu professionaalne eripuhastustööde partner</h1>
@@ -18,7 +17,7 @@ const Hero = () => (
           <CTAButton1 />
       </div>
     </div>
-  </div>
+  </section>
 );
     
   

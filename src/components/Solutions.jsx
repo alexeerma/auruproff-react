@@ -4,26 +4,27 @@ import { CTAButton2 } from '../components';
 
 const Solutions = () => (
   
-  <div className='my-8 bg-blockhele'>
-    <div className='flex justify-around'>
-      <div className=''>
-        <h1>Meie lahendused</h1>
-        <span class="h-1 w-full bg-primary lg:w-1/3"></span>
-        <p>Auruproff teeb eripuhastustöid nii sise- kui välitingimustes. Siit leiad laia valiku teenuseid puhtama keskkonna loomiseks. Töötame iga päev selle nimel, et olla meie klientide soovide ja vajaduste kõrgusel ning muuta puhastus ettevõtete jaoks võimalikult stressivabaks!</p>
+  <section className='bg-blockhele px-12 py-12'>
+  <div className='my-8'>
+    <div className='flex justify-around justify-items-center items-center'>
+      <div className='w-1/3'>
+        <h1 className="font-poppins text-2xl text-primary font-bold uppercase mb-[-15px] pt-12">Meie lahendused</h1>
+        <span className="h-1 w-full p-0.5 text-primary text-xl font-bold lg:w-1/3 ">_____</span>
+        <p className="py-5 text-primary text-lg">Auruproff teeb eripuhastustöid nii sise- kui välitingimustes. Siit leiad laia valiku teenuseid puhtama keskkonna loomiseks. Töötame iga päev selle nimel, et olla meie klientide soovide ja vajaduste kõrgusel ning muuta puhastus ettevõtete jaoks võimalikult stressivabaks!</p>
       </div>
-      <div>
-        <img src={siselahendused_pic} alt="" />
-        <h1>Siselahendused</h1>
-        <CTAButton2 />
+      <div className='w-1/3 relative flex flex-col'>
+        <img src={siselahendused_pic} alt="" className='' />
+        <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase'>Siselahendused</h1>
+        <CTAButton2 className="w-[200px]" />
       </div>
-      <div>
-        <img src={valilahendused_pic} alt="" />
-        <h1>Välilahendused</h1>
-        <CTAButton2 />
+      <div className='w-1/3 relative'>
+        <img src={valilahendused_pic} alt="" className='object-contain' />
+        <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase'>Välilahendused</h1>
+        <CTAButton2/>
       </div>
     </div>
   </div>
-
+</section>
 
 );
 

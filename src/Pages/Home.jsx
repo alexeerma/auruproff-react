@@ -13,8 +13,8 @@ const Home = () => (
     </div>
     <div className="container mx-auto py-8">
     <MyCarousel logos={logos} />
-    <Solutions />
     </div>
+    <Solutions />
   </div>
 );
 

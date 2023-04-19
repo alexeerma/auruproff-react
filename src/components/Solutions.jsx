@@ -4,7 +4,7 @@ import { CTAButton2 } from '../components';
 
 const Solutions = () => (
   
-  <div className='my-8'>
+  <div className='my-8 bg-blockhele'>
     <div className='flex justify-around'>
       <div className=''>
         <h1>Meie lahendused</h1>

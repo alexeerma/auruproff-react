@@ -7,6 +7,7 @@ module.exports = {
           primary: "#183efa",
           secondary: "#ededed",
           conferehele: "#E7DCCD",
+          blockhele: "rgba(230,235,255,255)",
           navtrans: "rgba(24, 62, 250, 0.6)",
           dimWhite: "rgba(255, 255, 255, 0.7)",
           dimBlue: "rgba(9, 151, 124, 0.1)",

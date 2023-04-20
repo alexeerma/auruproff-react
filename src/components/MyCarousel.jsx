@@ -41,6 +41,9 @@ const LogoSlider = ({ logos }) => {
   };
 
   return (
+    <div>
+      <h1 className="text-primary font-poppins font-bold text-2xl">MEIE KLIENDID & KOOSTÖÖPARTNERID</h1>
+      <span className="h-1 w-full p-0.5 text-primary text-xl font-bold lg:w-1/3 ">__________________________________________________________________________________________________________________________________________________________________</span>
     <Slider {...settings}>
       {logos.map((logo, index) => (
         <div key={index} className="">
@@ -48,6 +51,7 @@ const LogoSlider = ({ logos }) => {
         </div>
       ))}
     </Slider>
+    </div>
   );
 };
 

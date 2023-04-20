@@ -2,6 +2,8 @@ import React from 'react'
 import { siselahendused_pic, valilahendused_pic } from '../assets';
 import { CTAButton2 } from '../components';
 
+{/* Here comes the solutions section component for home page */}
+
 const Solutions = () => (
   
   <section className='bg-blockhele px-12 py-12'>

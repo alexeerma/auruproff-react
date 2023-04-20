@@ -68,31 +68,64 @@ const Contactform = () => {
           ref={formRef}
           onSubmit={handleSubmit}
           className=''>
+            <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Eesnimi</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Ees- ja perekonnanimi"
+              placeholder="What's your good name?"
               className=''
             />
+            </label>
+            <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Perekonnanimi</span>
+            <input
+              type='text'
+              name='name'
+              value={form.name}
+              onChange={handleChange}
+              placeholder="What's your good name?"
+              className=''
+            />
+            </label>
+            <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Telefoninumber</span>
+            <input
+              type='tel'
+              name='phone'
+              pattern=""
+              value={form.name}
+              onChange={handleChange}
+              placeholder="What's your good name?"
+              className=''
+            />
+          </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your email</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="E-mail"
+              placeholder="What's your web address?"
               className=''
             />
+          </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='Teade'
+              placeholder='What you want to say?'
               className=''
             />
-            <button
+          </label>
+
+          <button
             type='submit'
             className=''
           >

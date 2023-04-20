@@ -31,7 +31,7 @@ const Contactform = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Conferelaw",
+          to_name: "Auruproff",
           from_email: form.email,
           to_email: "aleksander.eerma@hotmail.com",
           message: form.message,
@@ -75,7 +75,7 @@ const Contactform = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder=""
               className=''
             />
             </label>
@@ -86,7 +86,7 @@ const Contactform = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder=""
               className=''
             />
             </label>
@@ -98,29 +98,29 @@ const Contactform = () => {
               pattern=""
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder=""
               className=''
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>E-mail</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder=""
               className=''
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>Sõnum</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder=''
               className=''
             />
           </label>
@@ -133,8 +133,8 @@ const Contactform = () => {
           </button>
           </form>
           <div className=''>
-            <img src={logo_black} alt="" className="max-w-1/2"/>
-            <h4 className="">Advokaadibüroo</h4>
+            <img src="" alt="" className="max-w-1/2"/>
+            <h4 className=""></h4>
             <p className='text-center'>Aadress: Tartu mnt 83, Tallinn, 10115, Eesti</p>
             <p className='text-center'>Telefon: +372 6740433</p>
             <p className='text-center'>Email: info@conferelaw.ee</p>

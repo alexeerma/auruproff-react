@@ -11,6 +11,7 @@ module.exports = {
           navtrans: "rgba(24, 62, 250, 0.6)",
           dimWhite: "rgba(255, 255, 255, 0.7)",
           dimBlue: "rgba(9, 151, 124, 0.1)",
+          fblue: "#183EFAF0",
         },
         
         fontFamily: {
@@ -29,6 +30,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/Slide1.png')",
         "contact-pattern": "url('/src/assets/A_taustagraafika.jpeg')",
+        "tgraafika": "url('src/assets/graafika2.png')",
       },
     },
     plugins: [],

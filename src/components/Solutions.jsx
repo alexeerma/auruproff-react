@@ -1,5 +1,5 @@
 import React from 'react'
-import { siselahendused_pic, valilahendused_pic } from '../assets';
+import { h_siselahendused, h_valilahendused } from '../assets';
 import { CTAButton2 } from '../components';
 
 {/* Here comes the solutions section component for home page */}
@@ -16,21 +16,21 @@ const Solutions = () => (
       </div>
       <div className='w-1/3 relative flex flex-col justify-items-center items-center'>
         <div>
-          <img src={siselahendused_pic} alt="" className='' /> 
+          <img src={h_siselahendused} alt="" className='' /> 
         </div>
         <div>
-          <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase'>Siselahendused</h1>
+          <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase py-5'>Siselahendused</h1>
         </div>
         <div>
-          <CTAButton2 className="w-[200px]" />
+          <CTAButton2 />
         </div>
       </div>
       <div className='w-1/3 relative flex flex-col justify-items-center items-center'>
         <div>
-          <img src={valilahendused_pic} alt="" className='object-contain' />
+          <img src={h_valilahendused} alt="" className='object-contain' />
         </div>
         <div>
-        <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase'>Välilahendused</h1>
+        <h1 className='text-center text-primary font-poppins font-bold text-2xl uppercase py-5'>Välilahendused</h1>
         </div>
         <div>
           <CTAButton2/>

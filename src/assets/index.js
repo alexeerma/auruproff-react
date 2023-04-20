@@ -23,6 +23,8 @@ import LogoS11 from './logo-slider/LogoS11.png';
 import LogoS12 from './logo-slider/LogoS12.png';
 import siselahendused_pic from './Siselahendused-aur.jpg';
 import valilahendused_pic from './valilahendused.jpg';
+import h_valilahendused from './A_v2lilahendused.png';
+import h_siselahendused from './A_siselahendused.png'
 
 
 
@@ -52,4 +54,6 @@ export {
     LogoS12,
     siselahendused_pic,
     valilahendused_pic,
+    h_siselahendused,
+    h_valilahendused,
 }

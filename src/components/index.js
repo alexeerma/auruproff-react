@@ -12,6 +12,7 @@ import Footer from './Footer'
 import FAQ from './FAQ'
 import CTAButton1 from './CTAButton1'
 import CTAButton2 from './CTAButton2'
+import CTAButton3 from './CTAButton3'
 import Contactinfo from './Contactinfo'
 import Contactform from './Contactform'
 import Contact from './Contact'
@@ -35,11 +36,13 @@ export {
     FAQ,
     CTAButton1,
     CTAButton2,
+    CTAButton3,
     Contact,
     Contact2,
     Contactform,
     Contactinfo,
     MyCarousel, 
+    
     
 
 };

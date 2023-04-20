@@ -28,6 +28,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/Slide1.png')",
+        "contact-pattern": "url('/src/assets/A_taustagraafika.jpeg')",
       },
     },
     plugins: [],

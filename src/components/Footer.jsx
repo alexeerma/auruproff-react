@@ -4,7 +4,7 @@ import { Contactform } from '../components';
 
 const Footer = () => (
 
-  <section className='flex justify-around bg-fblue bg-tgraafika bg-cover'>
+  <section className='flex md:flex justify-around bg-fblue bg-tgraafika bg-cover pt-12'>
     <div className='flex flex-col w-1/3'>
       <img src={aur_white} alt="auruproff" className='w-96' />
       <p className='text-secondary font-poppins pb-12'>Pakume Sulle enda teadmistele ja oskustele tuginedes parima lahenduse. Anna oma küsimustest või soovidest märku!</p>
@@ -20,7 +20,7 @@ const Footer = () => (
     <div className=''>
       <Contactform />
     </div>
-    <div className=''>
+    <div className='pt-[500px]'>
       <p>All Rights Reserved Auruproff © 2023</p>
     </div>
   </section>

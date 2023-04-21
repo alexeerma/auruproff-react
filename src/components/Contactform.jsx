@@ -61,7 +61,7 @@ const Contactform = () => {
   return (
     <section className="">
         <div className=''>
-          <h1 className="">Kontakt</h1>
+          <h1 className=""></h1>
         </div>
         <div className=" ">
           <form
@@ -127,18 +127,11 @@ const Contactform = () => {
 
           <button
             type='submit'
-            className=''
+            className='px-5 py-3 bg-secondary mt-5'
           >
             {loading ? "Sending..." : "Send"}
           </button>
           </form>
-          <div className=''>
-            <img src="" alt="" className="max-w-1/2"/>
-            <h4 className=""></h4>
-            <p className='text-center'>Aadress: Tartu mnt 83, Tallinn, 10115, Eesti</p>
-            <p className='text-center'>Telefon: +372 6740433</p>
-            <p className='text-center'>Email: info@conferelaw.ee</p>
-          </div>
         </div>
       </section>
 

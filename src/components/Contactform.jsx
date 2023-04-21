@@ -69,7 +69,7 @@ const Contactform = () => {
           onSubmit={handleSubmit}
           className=''>
             <div className='flex justify-between'>
-              <label className='flex flex-col'>
+              <label className='flex flex-col pt-3'>
               <span className='text-white font-medium mb-4'>Eesnimi</span>
               <input
                 type='text'
@@ -77,10 +77,10 @@ const Contactform = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder=""
-                className=''
+                className='bg-transparent	border-0 border-b-2 border-secondary'
               />
               </label>
-              <label className='flex flex-col'>
+              <label className='flex flex-col pt-3'>
               <span className='text-white font-medium mb-4'>Perekonnanimi</span>
               <input
                 type='text'
@@ -88,11 +88,11 @@ const Contactform = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder=""
-                className=''
+                className='bg-transparent border-0 border-b-2 border-secondary'
               />
               </label>
             </div>
-            <label className='flex flex-col'>
+            <label className='flex flex-col pt-3'>
             <span className='text-white font-medium mb-4'>Telefoninumber</span>
             <input
               type='tel'
@@ -101,10 +101,10 @@ const Contactform = () => {
               value={form.name}
               onChange={handleChange}
               placeholder=""
-              className=''
+              className='bg-transparent	border-0 border-b-2 border-secondary'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col pt-3'>
             <span className='text-white font-medium mb-4'>E-mail</span>
             <input
               type='email'
@@ -112,10 +112,10 @@ const Contactform = () => {
               value={form.email}
               onChange={handleChange}
               placeholder=""
-              className=''
+              className='bg-transparent	border-0 border-b-2 border-secondary'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col pt-3'>
             <span className='text-white font-medium mb-4'>Sõnum</span>
             <textarea
               rows={7}

@@ -68,28 +68,30 @@ const Contactform = () => {
           ref={formRef}
           onSubmit={handleSubmit}
           className=''>
-            <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Eesnimi</span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder=""
-              className=''
-            />
-            </label>
-            <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Perekonnanimi</span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder=""
-              className=''
-            />
-            </label>
+            <div className='flex justify-between'>
+              <label className='flex flex-col'>
+              <span className='text-white font-medium mb-4'>Eesnimi</span>
+              <input
+                type='text'
+                name='name'
+                value={form.name}
+                onChange={handleChange}
+                placeholder=""
+                className=''
+              />
+              </label>
+              <label className='flex flex-col'>
+              <span className='text-white font-medium mb-4'>Perekonnanimi</span>
+              <input
+                type='text'
+                name='name'
+                value={form.name}
+                onChange={handleChange}
+                placeholder=""
+                className=''
+              />
+              </label>
+            </div>
             <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Telefoninumber</span>
             <input

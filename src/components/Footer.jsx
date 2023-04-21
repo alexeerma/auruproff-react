@@ -20,7 +20,7 @@ const Footer = () => (
     <div className=''>
       <Contactform />
     </div>
-    <div className='pt-[500px]'>
+    <div className='pt-[500px] text-sm text-secondary'>
       <p>All Rights Reserved Auruproff © 2023</p>
     </div>
   </section>

@@ -77,7 +77,7 @@ const Contactform = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder=""
-                className='bg-transparent	border-0 border-b-2 border-secondary'
+                className='bg-transparent	border-0 border-b-2 border-secondary mr-9'
               />
               </label>
               <label className='flex flex-col pt-3'>

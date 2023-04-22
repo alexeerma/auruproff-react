@@ -7,7 +7,7 @@ const Footer = () => (
   <section className='flex md:flex justify-around bg-fblue bg-tgraafika bg-cover pt-12 pb-12'>
     <div className='flex flex-col w-1/3'>
       <img src={aur_white} alt="auruproff" className='w-96' />
-      <p className='text-secondary font-poppins pb-12'>Pakume Sulle enda teadmistele ja oskustele tuginedes parima lahenduse. Anna oma küsimustest või soovidest märku!</p>
+      <p className='text-secondary font-poppins pb-12 w-[450px]'>Pakume Sulle enda teadmistele ja oskustele tuginedes parima lahenduse. Anna oma küsimustest või soovidest märku!</p>
       <h5 className='text-secondary font-poppins'>Auruproff OÜ</h5>
       <h5 className='text-secondary font-poppins'>Reg-nr: 14561512</h5>
       <h5 className='text-secondary font-poppins'>KMKR:EE102097461</h5>

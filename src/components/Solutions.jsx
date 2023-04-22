@@ -6,7 +6,7 @@ import { CTAButton2 } from '../components';
 
 const Solutions = () => (
   
-  <section className='bg-blockhele px-12 py-12'>
+  <section className='bg-blockhele px-24 py-12'>
   <div className='my-8'>
     <div className='flex justify-around justify-items-center items-center'>
       <div className='w-1/3'>

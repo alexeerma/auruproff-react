@@ -1,13 +1,13 @@
 import React from 'react'
-import { NavBar } from '../components';
+import { NavBar, SurveHero } from '../components';
 
 
 const Survepesu = () => (
 
-  <section className='mt-36 bg-surv-bg bg-cover bg-no-repeat h-screen'>
+  <section className='mt-36'>
     <div className='mt-36'>
       <NavBar />
-      <h1></h1>
+      <SurveHero />
     </div>
 
   </section>

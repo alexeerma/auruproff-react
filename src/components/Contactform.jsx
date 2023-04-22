@@ -129,7 +129,7 @@ const Contactform = () => {
 
           <button
             type='submit'
-            className='px-5 py-3 bg-secondary mt-5'
+            className='px-5 py-3 bg-secondary mt-5 text-primary font-semibold'
           >
             {loading ? "Sending..." : "Send"}
           </button>

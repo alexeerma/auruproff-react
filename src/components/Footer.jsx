@@ -1,6 +1,7 @@
 import React from 'react'
 import { aur_white } from '../assets';
 import { Contactform } from '../components';
+import { FaFacebookSquare, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => (
 
@@ -11,9 +12,9 @@ const Footer = () => (
       <h5 className='text-secondary font-poppins'>Auruproff OÜ</h5>
       <h5 className='text-secondary font-poppins'>Reg-nr: 14561512</h5>
       <h5 className='text-secondary font-poppins'>KMKR:EE102097461</h5>
-      <div className='pt-16'>
-      <span>asda</span>
-      <span>asda</span>
+      <div className='pt-16 flex'>
+      <span><a href="https://www.facebook.com"><FaFacebookSquare className='text-secondary text-2xl mr-3 hover:text-conferehele hover:cursor-pointer'/></a> </span>
+      <span><a href="mailto:info@auruproff.ee"><FaEnvelope className='text-secondary text-2xl hover:text-conferehele hover:cursor-pointer'  /> </a></span>
       </div>
       
     </div>

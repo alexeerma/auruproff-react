@@ -10,7 +10,7 @@ const SurveHero = () => (
         <h1 className="text-primary text-5xl font-bold font-poppins pb-9">survepesu</h1>
         <p className='text-primary pb-12 leading-9 text-xl'>AURUPROFF pakub nii era- kui ärikliendile laiaulatuslikku valikut eripuhastustöid välitingimustes. Puhastame pindasid ja seadmeid alates eramaja katusest, tänavakivist ja kiviskulptuuridest kuni teraviljahoidlate ja väikelaevadeni välja. 
           Uuendame ja täiustame oma masinaparki ning teadmisi regulaarselt, seega võtame vastu ka kõige keerukamad puhastusväljakutsed!</p>
-        <ul className='list-disc ml-5 text-primary'>
+        <ul className='list-disc ml-5 text-primary leading-8 text-lg'>
           <li>Katuste pesu ja vihmaveerennide puhastus</li>
           <li>Fassadipuhastus</li>
           <li>Tänavakivide puhastus</li>

@@ -4,12 +4,12 @@ import {slide1, slide2, slide3} from '../assets';
 
 {/* Here come the column layout component for survepesu */}
 const SurveCol = () => (
-  <section>
-    <div className='flex flex-col md:flex'> 
-      <div>
+  <section className=''>
+    <div className='flex bg-colblue py-12 '> 
+      <div className=''>
         <img src={slide1} alt="" />
       </div>
-      <div>
+      <div className=''>
         <h1>Katuste ja vihmaveerennide puhastus</h1>
         <span className="h-1 w-full p-0.5 text-primary text-xl font-bold">______________</span>
         <p>Hoone katuse hooldamine ja regulaarne puhastus pikendavad selle eluiga ning lisaks garanteerivad esteetilise väljanägemise. 
@@ -17,7 +17,7 @@ const SurveCol = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className='flex  py-12'>
       <div>
         <h1>Fassaadipuhastus</h1>
         <span className="h-1 w-full p-0.5 text-primary text-xl font-bold">______________</span>
@@ -29,7 +29,7 @@ const SurveCol = () => (
         <img src={slide2} alt="" />
       </div>
     </div>
-    <div>
+    <div className='flex bg-colblue py-12'>
       <div>
         <img src={slide3} alt="" />
       </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, SurveHero } from '../components';
+import { NavBar, SurveCol, SurveHero } from '../components';
 
 
 const Survepesu = () => (
@@ -8,6 +8,7 @@ const Survepesu = () => (
     <div className='mt-36'>
       <NavBar />
       <SurveHero />
+      <SurveCol />
     </div>
 
   </section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, SurveCol, SurveHero } from '../components';
+import { Contactaction, Footer, NavBar, SurveCol, SurveHero } from '../components';
 
 
 const Survepesu = () => (
@@ -9,7 +9,9 @@ const Survepesu = () => (
       <NavBar />
       <SurveHero />
       <SurveCol />
+      <Contactaction />
     </div>
+    <Footer />
 
   </section>
   

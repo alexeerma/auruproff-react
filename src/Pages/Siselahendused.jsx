@@ -1,11 +1,14 @@
 import React from 'react'
-import { NavBar, SiseHero } from '../components';
+import { Contactaction, NavBar, SiseCol, SiseHero, Footer } from '../components';
 
 const Siselahendused = () => (
   
     <div className='mt-36'>
       <NavBar />
       <SiseHero />
+      <SiseCol />
+      <Contactaction />
+      <Footer />
     
     </div>
   

@@ -32,7 +32,7 @@ module.exports = {
         "hero-pattern": "url('/src/assets/Slide1.png')",
         "contact-pattern": "url('/src/assets/A_taustagraafika.jpeg')",
         "tgraafika": "url('src/assets/graafika2.png')",
-        "vali-bg" : "url('src/assets/Siselahendused-aur.jpg')",
+        "sise-bg" : "url('src/assets/Siselahendused-aur.jpg')",
         "surv-bg" : "url('src/assets/valilahendused.jpg')",
       },
     },

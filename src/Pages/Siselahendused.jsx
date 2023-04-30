@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavBar } from '../components';
+import { NavBar, SiseHero } from '../components';
 
 const Siselahendused = () => (
   
     <div className='mt-36'>
       <NavBar />
-      <h1>Siselahendused</h1>
+      <SiseHero />
     
     </div>
   

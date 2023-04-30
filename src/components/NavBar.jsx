@@ -38,37 +38,37 @@ const NavBar = () => {
         </div>
         <div className="mr-[20px]">
           <ul className="list-none hidden sm:flex flex-row gap-5 items-center py-5">
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/">
                 Avaleht
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/Survepesu">
                 Survepesu
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/Siselahendused">
                 Siselahendused
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/tood">
                 Tööd
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/inimesed">
                 Inimesed
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/KKK">
                 KKK
              </Link>
             </li>
-            <li className="px-5 text-primary font-poppins uppercase text-xl font-semibold hover:font-bold">
+            <li className="px-5 text-primary font-poppins uppercase text-md font-semibold hover:font-bold xl:text-xl">
              <Link className="" to="/kontakt">
                 Kontakt
              </Link>

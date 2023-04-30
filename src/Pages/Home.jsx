@@ -11,7 +11,7 @@ const Home = () => (
       <h1></h1>
       <Hero />
     </div>
-    <div className="container mx-12 py-9">
+    <div className="mx-12 py-9">
     <MyCarousel logos={logos} />
     </div>
     <div>

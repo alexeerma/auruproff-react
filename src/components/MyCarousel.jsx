@@ -7,7 +7,7 @@ import Slider from "react-slick";
 const LogoSlider = ({ logos }) => {
   const settings = {
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
@@ -43,7 +43,7 @@ const LogoSlider = ({ logos }) => {
   return (
     <div>
       <h1 className="text-primary font-poppins font-bold text-2xl">MEIE KLIENDID & KOOSTÖÖPARTNERID</h1>
-      <span className="h-1 w-full p-0.5 text-primary text-xl font-bold lg:w-1/3">__________________________________________________________________________________________________________________________________________________________________</span>
+      <span className="h-1 w-full p-0.5 text-primary text-xl font-bold lg:w-1/3">___________</span>
     <Slider {...settings} className="pt-5">
       {logos.map((logo, index) => (
         <div key={index} className="">

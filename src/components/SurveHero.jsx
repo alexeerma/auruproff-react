@@ -4,13 +4,13 @@ import React from 'react'
 {/* Here comes the hero section component for survepesu */}
 
 const SurveHero = () => (
-  <section className="bg-surv-bg bg-cover bg-no-repeat h-screen">
+  <section className="bg-surv-bg bg-cover bg-no-repeat bg-right sm:h-auto xl:h-screen ">
     <div className='flex justify-around mx-20 pt-40'>
-      <div className='w-1/2'>
+      <div className='w-1/2 pb-16'>
         <h1 className="text-primary text-5xl font-bold font-poppins pb-9">survepesu</h1>
-        <p className='text-primary pb-12 leading-9 text-xl'>AURUPROFF pakub nii era- kui ärikliendile laiaulatuslikku valikut eripuhastustöid välitingimustes. Puhastame pindasid ja seadmeid alates eramaja katusest, tänavakivist ja kiviskulptuuridest kuni teraviljahoidlate ja väikelaevadeni välja. 
+        <p className='text-primary pb-12 leading-9 text-lg xl:text-xl'>AURUPROFF pakub nii era- kui ärikliendile laiaulatuslikku valikut eripuhastustöid välitingimustes. Puhastame pindasid ja seadmeid alates eramaja katusest, tänavakivist ja kiviskulptuuridest kuni teraviljahoidlate ja väikelaevadeni välja. 
           Uuendame ja täiustame oma masinaparki ning teadmisi regulaarselt, seega võtame vastu ka kõige keerukamad puhastusväljakutsed!</p>
-        <ul className='list-disc ml-5 text-primary leading-8 text-lg'>
+        <ul className='list-disc ml-5 text-primary leading-8 text-md xl:text-lg'>
           <li>Katuste pesu ja vihmaveerennide puhastus</li>
           <li>Fassadipuhastus</li>
           <li>Tänavakivide puhastus</li>
@@ -27,7 +27,7 @@ const SurveHero = () => (
           Soovin pakkumist küsida
         </button>
       </div>
-      <div className='w-1/2'></div>
+      <div className='w-1/2 pb-16'></div>
     </div>
   </section>
   

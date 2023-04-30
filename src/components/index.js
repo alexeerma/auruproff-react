@@ -19,6 +19,7 @@ import Contact from './Contact'
 import Contact2 from './Contact2'
 import MyCarousel from './MyCarousel'
 import ScrollToTop from './ScrollToTop';
+import Contactaction from './Contactaction';
 
 
 
@@ -44,6 +45,7 @@ export {
     Contactinfo,
     MyCarousel, 
     ScrollToTop,
+    Contactaction,
     
     
 

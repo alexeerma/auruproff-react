@@ -52,9 +52,6 @@ Pindade puhastamiseks ja hooldamiseks kasutame kuumavee-kõrgsurvepesureid ning 
         <img src={slide2} alt="" className='w-[450px] h-[300px] object-cover'/>
       </div>
     </div>
-
-
-
   </section>
     
   

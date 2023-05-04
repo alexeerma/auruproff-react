@@ -13,7 +13,7 @@ function ImageGallery() {
 
   return (
     <div className="container mx-auto my-8">
-      <div className="flex justify-between mb-4">
+      <div className="flex justify-start mb-4">
         {categories.map((category) => (
           <button
             key={category}

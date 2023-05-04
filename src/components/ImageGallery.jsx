@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from './Image';
-import images from '..constants/images.js';
+import images from './images';
 
 const categories = ['All', 'Category 1', 'Category 2', 'Category 3'];
 

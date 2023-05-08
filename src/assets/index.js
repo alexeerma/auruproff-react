@@ -26,6 +26,8 @@ import valilahendused_pic from './valilahendused.jpg';
 import h_valilahendused from './A_v2lilahendused.png';
 import h_siselahendused from './A_siselahendused.png';
 import a_taustagraafika from './A_taustagraafika.jpeg';
+import graafika from './graafika.png';
+import graafika2 from './graafika2.png';
 
 
 export {
@@ -57,5 +59,6 @@ export {
     h_siselahendused,
     h_valilahendused,
     a_taustagraafika,
-
+    graafika,
+    graafika2,
 }

@@ -26,7 +26,21 @@ const images = [
       category: 'Erilahendused',
       thumbnail: 'https://via.placeholder.com/300x200',
       fullSize: 'https://via.placeholder.com/1200x800',  
-    }
+    },
+    {
+        id: 5, 
+        title: 'Image 5',
+        category: 'Erilahendused',
+        thumbnail: 'https://via.placeholder.com/300x200',
+        fullSize: 'https://via.placeholder.com/1200x800',  
+      },
+      {
+        id: 5, 
+        title: 'Image 6',
+        category: 'Erilahendused',
+        thumbnail: 'https://via.placeholder.com/300x200',
+        fullSize: 'https://via.placeholder.com/1200x800',  
+      }
     // add more images here...
   ];
   

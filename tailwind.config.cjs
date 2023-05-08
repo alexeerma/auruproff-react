@@ -34,6 +34,8 @@ module.exports = {
         "tgraafika": "url('src/assets/graafika2.png')",
         "sise-bg" : "url('src/assets/Siselahendused-aur.jpg')",
         "surv-bg" : "url('src/assets/valilahendused.jpg')",
+        "graafika" : "url('src/assets/graafika.png')",
+        
       },
     },
     plugins: [],

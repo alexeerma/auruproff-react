@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from './Image';
 import images from './images';
 
-const categories = ['All', 'Category 1', 'Category 2', 'Category 3'];
+const categories = ['Kõik', 'Katused', 'Fassaad', 'Betoon', 'Tänavakivi', 'Erilahendused', 'Siselahendused'];
 
 function ImageGallery() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -17,8 +17,8 @@ function ImageGallery() {
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full text-sm ${
-              selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
+            className={`px-4 py-2 mr-3 text-sm ${
+              selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-black text-white'
             }`}
             onClick={() => setSelectedCategory(category)}
           >

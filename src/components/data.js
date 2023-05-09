@@ -1,23 +1,36 @@
 const posts = [
     {
-        title: "React Tailwind Card with Grid 1",
+        title: "Andri Laine",
         img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-        content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+        title2:"Puhastustööd",
+        title3:"Pakkumised",
+        title4:"Lepingud",
+        content: "andri@auruproff.ee",
+        content2: "372 5812 9885"
     },
     {
-        title: "React Tailwind Card with Grid 2",
+        title: "Mia Brit Ots",
         img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-        content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+        title2:"Turundus",
+        title3:"Kliendisuhted",
+        titl4:"mia@auruproff.ee",
+        content: "372 5812 9885"
     },
     {
-        title: "React Tailwind Card with Grid 3",
+        title: "Mü",
         img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-        content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+        title2:"Chief Hapiness Officer (CHO)",
+        title3:"",
+        titl4:"",
+        content:"info@auruproff.ee"
     },
     {
-        title: "React Tailwind Card with Grid 4",
+        title: "Aleksander Eerma",
         img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-        content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+        title2:"Infotehnoloogilised lahendused",
+        title3:"",
+        titl4:"",
+        content: "info@auruproff.ee"
     },
 ];
 

@@ -22,7 +22,7 @@ const posts = [
         title: "Mü",
         img: {My},
         title2:"Chief Hapiness Officer (CHO)",
-        title3:"",
+        title3:"Here to make you all Happy!",
         titl4:"",
         content:"info@auruproff.ee"
     },

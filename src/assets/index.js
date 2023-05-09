@@ -28,6 +28,10 @@ import h_siselahendused from './A_siselahendused.png';
 import a_taustagraafika from './A_taustagraafika.jpeg';
 import graafika from './graafika.png';
 import graafika2 from './graafika2.png';
+import Andri from './Andri.jpg';
+import Mia from './Mia.jpeg';
+import My from './My.jpg';
+import Sass from './Sass.jpeg';
 
 
 export {
@@ -61,4 +65,8 @@ export {
     a_taustagraafika,
     graafika,
     graafika2,
+    Andri, 
+    Mia, 
+    My, 
+    Sass,
 }

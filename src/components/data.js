@@ -1,7 +1,9 @@
+import {Andri, Mia, My, Sass} from '../assets';
+
 const posts = [
     {
         title: "Andri Laine",
-        img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+        img: {Andri},
         title2:"Puhastustööd",
         title3:"Pakkumised",
         title4:"Lepingud",
@@ -10,7 +12,7 @@ const posts = [
     },
     {
         title: "Mia Brit Ots",
-        img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+        img: {Mia},
         title2:"Turundus",
         title3:"Kliendisuhted",
         titl4:"mia@auruproff.ee",
@@ -18,7 +20,7 @@ const posts = [
     },
     {
         title: "Mü",
-        img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+        img: {My},
         title2:"Chief Hapiness Officer (CHO)",
         title3:"",
         titl4:"",
@@ -26,7 +28,7 @@ const posts = [
     },
     {
         title: "Aleksander Eerma",
-        img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+        img: {Sass},
         title2:"Infotehnoloogilised lahendused",
         title3:"",
         titl4:"",

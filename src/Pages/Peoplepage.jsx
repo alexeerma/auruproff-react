@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar } from '../components';
+import { NavBar, People } from '../components';
 
 const Peoplepage = () => (
   
@@ -7,6 +7,7 @@ const Peoplepage = () => (
     <NavBar />
     <div className='container mx-auto'>
     <h1 className='text-primary text-4xl font-bold font-poppins'>auruproff tiim</h1>
+    <People />
     </div>
   </div>
   

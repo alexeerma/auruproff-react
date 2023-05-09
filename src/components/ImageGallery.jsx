@@ -5,10 +5,10 @@ import images from './images';
 const categories = ['Kõik', 'Katused', 'Fassaad', 'Betoon', 'Tänavakivi', 'Erilahendused', 'Siselahendused'];
 
 function ImageGallery() {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('Kõik');
 
   const filteredImages = images.filter((image) =>
-    selectedCategory === 'All' ? true : image.category === selectedCategory
+    selectedCategory === 'Kõik' ? true : image.category === selectedCategory
   );
 
   return (

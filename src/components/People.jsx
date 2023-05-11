@@ -4,7 +4,7 @@ import data from './data';
 
 const People = () => (
   <section className='container mx-auto bg-graafika bg-no-repeat bg-cover'>
-    <div className="grid gap-10 lg:grid-cols-3 pt-12">
+    <div className="grid gap-10 lg:grid-cols-3 pt-12 z-40">
                 {data.map((items, key) => (
                     <div className="w-full rounded-lg shadow-md lg:max-w-sm" key={key}>
                         <img

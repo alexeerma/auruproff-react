@@ -20,6 +20,7 @@ import Contact2 from './Contact2'
 import MyCarousel from './MyCarousel'
 import ScrollToTop from './ScrollToTop';
 import Contactaction from './Contactaction';
+import Accordion from './Accordion';
 
 
 
@@ -46,6 +47,8 @@ export {
     MyCarousel, 
     ScrollToTop,
     Contactaction,
+    Accordion,
+    
     
     
 

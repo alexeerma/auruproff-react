@@ -1,0 +1,12 @@
+.open {
+    border-color: #087f5b;
+  }
+  
+  .open .accordion__header,
+  .open .accordion__number {
+    color: #087f5b;
+  }
+  
+  .open .accordion__details {
+    height: auto;
+  }

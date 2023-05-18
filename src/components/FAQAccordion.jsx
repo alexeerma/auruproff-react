@@ -32,7 +32,8 @@ function FAQAccordion() {
   return (
     <Fragment>
       <Accordion className="" open={open === 1} icon={<Icon id={1} open={open} />}>
-        <AccordionHeader className="text-center justify-around" onClick={() => handleOpen(1)}>
+        <div></div>
+        <AccordionHeader className="text-center justify-between" onClick={() => handleOpen(1)}>
           What is Material Tailwind?
         </AccordionHeader>
         <AccordionBody className="text-center">

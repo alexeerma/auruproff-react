@@ -7,7 +7,7 @@ function FAQpage() {
     <div className='mt-36'>
       <NavBar /> 
       <h1 className='text-primary text-4xl font-poppins font-semibold text-center'>KKK</h1>
-      <div className=' h-screen flex flex-col justify-center items-center'>
+      <div className='container mx-auto h-screen flex flex-col justify-center items-center'>
         <FAQAccordion />
       </div>
       

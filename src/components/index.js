@@ -21,6 +21,7 @@ import MyCarousel from './MyCarousel'
 import ScrollToTop from './ScrollToTop';
 import Contactaction from './Contactaction';
 import FAQAccordion from './FAQAccordion';
+import Infow from './Infow';
 
 
 
@@ -48,7 +49,7 @@ export {
     ScrollToTop,
     Contactaction,
     FAQAccordion,
-    
+    Infow,
     
     
 

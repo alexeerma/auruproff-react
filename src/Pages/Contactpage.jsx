@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavBar } from '../components';
+import { Infow, NavBar } from '../components';
 
 const Contactpage = () => (
   
-  <div>
+  <div className='mt-64'>
     <NavBar /> 
-    <h1>Contact</h1>
+    <Infow />
     
   </div>
   

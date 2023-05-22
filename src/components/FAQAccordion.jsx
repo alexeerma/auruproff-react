@@ -32,7 +32,6 @@ function FAQAccordion() {
   return (
     <Fragment>
       <Accordion className="" open={open === 1} icon={<Icon id={1} open={open} />}>
-        <div></div>
         <AccordionHeader className="text-center text-primary uppercase justify-between" onClick={() => handleOpen(1)}>
           Mis on ruutmeetri(M2) hind?
         </AccordionHeader>

@@ -61,8 +61,8 @@ const Contactform2 = () => {
   return (
     <section className="">
         <div className=''>
-          <h1 className="">Sul on puhastust vajav pind või objekt?</h1>
-          <p>Kirjuta lisainfosse lühidalt millega tegu, kus objekt asub ja võimalusel lisa ka mõni pilt. Aitäh!
+          <h1 className="text-primary text-3xl font-semibold">Sul on puhastust vajav pind või objekt?</h1>
+          <p className='text-primary pt-8 text-lg font-medium'>Kirjuta lisainfosse lühidalt millega tegu, kus objekt asub ja võimalusel lisa ka mõni pilt. Aitäh!
 Vastame päringule 24 tunni jooksul.</p>
         </div>
         <div className=" ">

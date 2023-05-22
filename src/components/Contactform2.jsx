@@ -1,0 +1,145 @@
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+const Contactform2 = () => {
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
+
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Auruproff",
+          from_email: form.email,
+          to_email: "aleksander.eerma@hotmail.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
+  };
+
+  return (
+    <section className="">
+        <div className=''>
+          <h1 className="">Sul on puhastust vajav pind või objekt?</h1>
+          <p>Kirjuta lisainfosse lühidalt millega tegu, kus objekt asub ja võimalusel lisa ka mõni pilt. Aitäh!
+Vastame päringule 24 tunni jooksul.</p>
+        </div>
+        <div className=" ">
+          <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className=''>
+            <div className='flex justify-between'>
+              <label className='flex flex-col pt-3'>
+              <span className='text-white font-medium mb-4'>Eesnimi</span>
+              <input
+                type='text'
+                name='name'
+                value={form.name}
+                onChange={handleChange}
+                placeholder=""
+                className='bg-transparent	border-0 border-b-2 border-secondary mr-9'
+              />
+              </label>
+              <label className='flex flex-col pt-3'>
+              <span className='text-white font-medium mb-4'>Perekonnanimi</span>
+              <input
+                type='text'
+                name='name'
+                value={form.name}
+                onChange={handleChange}
+                placeholder=""
+                className='bg-transparent border-0 border-b-2 border-secondary'
+              />
+              </label>
+            </div>
+            <label className='flex flex-col pt-3'>
+            <span className='text-white font-medium mb-4'>Telefoninumber</span>
+            <input
+              type='tel'
+              name='phone'
+              pattern=""
+              value={form.name}
+              onChange={handleChange}
+              placeholder=""
+              className='bg-transparent	border-0 border-b-2 border-secondary'
+            />
+          </label>
+          <label className='flex flex-col pt-3'>
+            <span className='text-white font-medium mb-4'>E-mail</span>
+            <input
+              type='email'
+              name='email'
+              value={form.email}
+              onChange={handleChange}
+              placeholder=""
+              className='bg-transparent	border-0 border-b-2 border-secondary'
+            />
+          </label>
+          <label className='flex flex-col pt-3'>
+            <span className='text-white font-medium mb-4'>Sõnum</span>
+            <textarea
+              rows={7}
+              name='message'
+              value={form.message}
+              onChange={handleChange}
+              placeholder=''
+              className=''
+            />
+          </label>
+
+          <button
+            type='submit'
+            className='px-5 py-3 bg-secondary mt-5 text-primary font-semibold'
+          >
+            {loading ? "Sending..." : "Send"}
+          </button>
+          </form>
+        </div>
+      </section>
+
+    );
+  };
+
+export default Contactform2

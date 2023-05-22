@@ -22,6 +22,7 @@ import ScrollToTop from './ScrollToTop';
 import Contactaction from './Contactaction';
 import FAQAccordion from './FAQAccordion';
 import Infow from './Infow';
+import Contactform2 from './Contactform2';
 
 
 
@@ -50,6 +51,7 @@ export {
     Contactaction,
     FAQAccordion,
     Infow,
+    Contactform2,
     
     
 

@@ -72,30 +72,30 @@ Vastame päringule 24 tunni jooksul.</p>
           className=''>
             <div className='flex justify-between'>
               <label className='flex flex-col pt-3'>
-              <span className='text-white font-medium mb-4'>Eesnimi</span>
+              <span className='text-primary font-semibold mb-4'>Eesnimi</span>
               <input
                 type='text'
                 name='name'
                 value={form.name}
                 onChange={handleChange}
                 placeholder=""
-                className='bg-transparent	border-0 border-b-2 border-secondary mr-9'
+                className='bg-transparent	border-0 border-b-2 border-primary mr-9'
               />
               </label>
               <label className='flex flex-col pt-3'>
-              <span className='text-white font-medium mb-4'>Perekonnanimi</span>
+              <span className='text-primary font-semibold mb-4'>Perekonnanimi</span>
               <input
                 type='text'
                 name='name'
                 value={form.name}
                 onChange={handleChange}
                 placeholder=""
-                className='bg-transparent border-0 border-b-2 border-secondary'
+                className='bg-transparent border-0 border-b-2 border-primary'
               />
               </label>
             </div>
             <label className='flex flex-col pt-3'>
-            <span className='text-white font-medium mb-4'>Telefoninumber</span>
+            <span className='text-primary font-semibold mb-4'>Telefoninumber</span>
             <input
               type='tel'
               name='phone'
@@ -103,22 +103,22 @@ Vastame päringule 24 tunni jooksul.</p>
               value={form.name}
               onChange={handleChange}
               placeholder=""
-              className='bg-transparent	border-0 border-b-2 border-secondary'
+              className='bg-transparent	border-0 border-b-2 border-primary'
             />
           </label>
           <label className='flex flex-col pt-3'>
-            <span className='text-white font-medium mb-4'>E-mail</span>
+            <span className='text-primary font-semibold mb-4'>E-mail</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
               placeholder=""
-              className='bg-transparent	border-0 border-b-2 border-secondary'
+              className='bg-transparent	border-0 border-b-2 border-primary'
             />
           </label>
           <label className='flex flex-col pt-3'>
-            <span className='text-white font-medium mb-4'>Sõnum</span>
+            <span className='text-primary font-semibold mb-4'>Sõnum</span>
             <textarea
               rows={7}
               name='message'

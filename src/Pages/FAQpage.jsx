@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, FAQAccordion } from '../components';
+import { NavBar, FAQAccordion, Footer } from '../components';
 
 function FAQpage() {
   return (
@@ -12,6 +12,7 @@ function FAQpage() {
       </div>
       
     </div>
+    <Footer />
     </section>
    
   );

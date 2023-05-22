@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar } from '../components';
+import { Footer, NavBar } from '../components';
 import ImageGallery from '../components/ImageGallery';
 import Workheader from '../components/Workheader';
 
@@ -10,6 +10,7 @@ const Work = () => (
       <NavBar />
       <Workheader />
       <ImageGallery />
+      <Footer />
     </div>
   </section>
 );

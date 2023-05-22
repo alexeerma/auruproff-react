@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, People } from '../components';
+import { Footer, NavBar, People } from '../components';
 
 const Peoplepage = () => (
   
@@ -9,6 +9,7 @@ const Peoplepage = () => (
     <h1 className='text-primary text-4xl font-bold font-poppins'>auruproff tiim</h1>
     <People />
     </div>
+    <Footer />
   </div>
   
 );
